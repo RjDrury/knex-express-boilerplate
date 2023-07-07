@@ -30,18 +30,6 @@ In terminal run the following commands:
 4. ```\q```
 5. CD into your repo
 
-### Windows
-
-If you dont have postgres follow this link: https://www.2ndquadrant.com/en/blog/pginstaller-install-postgresql/
-
-#### Create dev and test databases (Windows)
-
-Set up Postgres and create databases for both the development server (db-name) and testing server (db-name-test)
-
-1. Open pgAdmin, sign in with your master password created during the set up of postgres.
-2. Create a server if needed, if already created, turn server on by right clicking and pressing "Connect Server"
-3. Once connected, look for the drop down for databases and right click to Create a database
-4. Create a database called 'db-name' for the development connection & (db-name-test) for the testing connection
 
 ## Environmental Variables at Runtime
 
